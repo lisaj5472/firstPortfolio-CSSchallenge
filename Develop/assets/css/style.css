@@ -29,6 +29,10 @@ h6 {
   margin: 0;
 }
 
+h3{
+  color: white;
+}
+
 p {
   margin: 0;
 }
@@ -84,6 +88,17 @@ nav a:last-child {
 main {
   margin-top: 20px;
   margin-bottom: 45px;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch; 
+}
+
+section{
+  display: block; 
+  width: 100%;
+  padding: 20px;
+  margin: 0; 
+  box-sizing: border-box;
 }
 
 .hero-banner {
@@ -136,7 +151,7 @@ main {
   text-align: right;
   padding-right: 15px;
   border-right: 4px solid var(--primary);
-  font-size: 4vw;
+  font-size 100%;
   line-height: 1.1;
 }
 
@@ -167,7 +182,7 @@ main {
   margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
-  background-size: 150%;
+  background-size: contain;
   transition: all 0.5s;
   font-size: 0.9rem;
 }
@@ -221,47 +236,79 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
-.main {
+/* 
+.label{
+  flex: initial;
+  border-right: solid;
+  border-color: red;
+  border-width: 5px;
+}
+
+.description {
+  flex:auto;
+  padding: 10px;
+  background-color: lightcoral;
+  text-align: center;
+}
+
+.about{
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping to the next line */
-  gap: 10px; /* Adds spacing between divs */
-  align-items: stretch; /* Ensures all boxes are the same height */
+  flex-wrap: wrap;
 }
 
-section{
-  display: block; /* Default for sections */
-  width: 100%; /* Ensures full-width sections */
-  padding: 20px; /* Optional padding for spacing */
-  margin: 0; /* Remove extra margin, if any */
-  box-sizing: border-box;
+.work{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.box {
-  flex: 1; /* Makes boxes equal width */
-  min-width: 150px; /* Prevents boxes from shrinking too small */
-  padding: 20px;
-  box-sizing: border-box;
+.contact{
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.resume{
+  display: flex;
+  flex-wrap: wrap;
+} */
 
 #css-ref {
-  background-color: blueviolet;
+  background-image: url('./images/css.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #events {
-  background-color: aqua;
+  background-image: url('./images/event.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 #admin {
-  background-color: bisque;
+  background-image: url('./images/admin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #travel {
-  background-color: red;
+  background-image: url('./images/travel.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #web-dev {
-  background-color: palegoldenrod;
+  background-image: url('./images/webdev.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+
+
+
+
 
 /* media queries */
 
