@@ -1,6 +1,6 @@
 # First Portfolio - CSS Challenge
 
-This project is a personal portfolio website developed as part of the University of Denver Coding Boot Camp. It showcases my skills, projects, and experience in web development. Some of the code and design elements were provided by the University of Denver Coding Boot Camp educational team as part of the course curriculum.&#8203;:contentReference[oaicite:2]{index=2}
+This project is a personal portfolio website developed as part of the University of Denver Coding Boot Camp. It showcases my skills, projects, and experience in web development. Some of the code and design elements were provided by the University of Denver Coding Boot Camp educational team as part of the course curriculum.
 
 ## Table of Contents
 
